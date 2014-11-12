@@ -12,7 +12,7 @@ Let me know if you have any problems getting this up and running.
 * rails s
 * see your local version here: localhost:3000
 
-##### pushing to heroku
+== pushing to heroku:
 * heroku create
 * git push heroku master 
 * example heroku deployment here:  https://safe-hamlet-5532.herokuapp.com/
