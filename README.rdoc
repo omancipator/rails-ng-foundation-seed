@@ -1,28 +1,16 @@
-== README
+== Getting started with Rails, AngularJS, and Foundation
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Just to get us started, here is a seed repo with a rails project with the right gems to get a no-database rails site up and running on heroku with foundation and angularjs.
+Let me know if you have any problems getting this up and running
 
-Things you may want to cover:
+Installation:
 
-* Ruby version
+* git clone git@github.com:omancipator/rails-ng-foundation-seed.git
 
-* System dependencies
+* bundle install
 
-* Configuration
+* rake bower:install
 
-* Database creation
+* rails s
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+* heroku deployment here:  https://safe-hamlet-5532.herokuapp.com/
