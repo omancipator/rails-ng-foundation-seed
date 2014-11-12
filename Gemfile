@@ -33,6 +33,7 @@ group :test do
 end
 
 gem "bower-rails"
+gem 'rails_12factor', group: :production
 
 
 
