@@ -14,3 +14,7 @@ Installation:
 * rails s
 
 * heroku deployment here:  https://safe-hamlet-5532.herokuapp.com/
+
+== helpful links
+* https://devcenter.heroku.com/articles/git
+* https://github.com/42dev/bower-rails
