@@ -10,6 +10,8 @@
 // Read Sprockets README (https://github.com/sstephenson/sprockets#sprockets-directives) for details
 // about supported directives.
 //
+//= require jquery
 
 //= require angular/angular
+//= require foundation/js/foundation
 //= require_tree .
