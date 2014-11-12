@@ -1,4 +1,4 @@
-== Getting started with Rails, AngularJS, and Foundation
+== Getting started with Rails, AngularJS, Foundation, and Heroku
 
 Here is a seed repo with a rails project with the right gems to get a no-database rails site up and running on heroku with foundation and angularjs.
 Let me know if you have any problems getting this up and running.
