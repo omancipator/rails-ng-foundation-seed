@@ -10,6 +10,7 @@
     "name": "bower-rails generated vendor assets",
     "dependencies": {
         "angular"                     : "https://github.com/angular/bower-angular.git",
+        "modernizr"                   : "https://github.com/Modernizr/Modernizr.git",
         "foundation"                  : "https://github.com/zurb/bower-foundation.git",
         "angular-foundation-bower"    : "https://github.com/pineconellc/angular-foundation-bower.git"
     }

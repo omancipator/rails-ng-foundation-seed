@@ -16,3 +16,11 @@
 
 @import "foundation/css/normalize";
 @import "foundation/css/foundation";
+
+//changes to foundation
+.top-bar {
+  background: blue;
+  height: 100px;
+  line-height: 100px;
+
+}
