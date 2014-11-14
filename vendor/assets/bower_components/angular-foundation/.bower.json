@@ -1,0 +1,14 @@
+{
+  "name": "angular-foundation",
+  "homepage": "https://github.com/pineconellc/angular-foundation",
+  "version": "0.4.0",
+  "_release": "0.4.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.4.0",
+    "commit": "b5d0cba81d8ac77b0963fd24ccabb80862076d91"
+  },
+  "_source": "https://github.com/pineconellc/angular-foundation.git",
+  "_target": "*",
+  "_originalSource": "https://github.com/pineconellc/angular-foundation.git"
+}

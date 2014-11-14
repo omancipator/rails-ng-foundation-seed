@@ -13,6 +13,11 @@
 //= require jquery
 
 //= require angular/angular
+//= require angular-rails-templates
 //= require modernizr/modernizr
 //= require foundation/js/foundation
+//= require angular-foundation/src/alert/alert
+//= require angular-foundation/template/alert/alert
+//= require_tree ../templates
+
 //= require_tree .
