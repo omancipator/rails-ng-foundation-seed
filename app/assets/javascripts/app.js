@@ -46,7 +46,11 @@ angular.module('pspApp',['templates', 'mm.foundation.alert', 'psp.svc'])
     $scope.purposes = loanPurposesService.getPurposes();
     $scope.showAlerts = false;
     $scope.selectionMade = function(){
+      $scope.showAlert = ($scope.purpose.id == 3) ? true: false;
       console.log($scope.purpose.id);
+    };
+    $scope.closeAlert = function(){
+      $scope.showAlert = false;
     }
   }])
 
