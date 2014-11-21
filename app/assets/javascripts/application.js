@@ -10,9 +10,14 @@
 // Read Sprockets README (https://github.com/sstephenson/sprockets#sprockets-directives) for details
 // about supported directives.
 //
-//= require jquery
 
+
+// library files
+//= require jquery
 //= require angular/angular
 //= require modernizr/modernizr
 //= require foundation/js/foundation
-//= require_tree .
+
+
+// our source files:
+//= require psp_app
