@@ -11,15 +11,22 @@
 // about supported directives.
 //
 //= require jquery
-
+// framework files
 //= require angular/angular
 //= require angular-rails-templates
 //= require modernizr/modernizr
 //= require foundation/js/foundation
+
+
+
+// specific for this 'page'
+
 //= require angular-foundation/src/alert/alert
 //= require angular-foundation/template/alert/alert
-//= require widgets/widgets
-//= require widgets/loan_purpose_select
-//= require_tree ../templates
+//= require directives/loan_purpose_directive
+//= require modules/psp_app
+//= require ../templates/directives/loan_purpose_select.html
 
-//= require_tree .
+
+
+
