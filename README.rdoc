@@ -1,3 +1,4 @@
+[ ![Codeship Status for omancipator/rails-ng-foundation-seed](https://codeship.com/projects/e5688270-5686-0132-18ec-22e6be3a6f3f/status)](https://codeship.com/projects/49567)
 == Getting started with Rails, AngularJS, Foundation, and Heroku
 
 Here is a seed repo with a rails project with the right gems to get a no-database rails site up and running on heroku with foundation and angularjs.
