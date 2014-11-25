@@ -6,6 +6,7 @@
     "karma-coverage": "^0.2.6",
     "karma-jasmine": "^0.3.0",
     "karma-ng-html2js-preprocessor": "^0.1.2",
+    "karma-phantomjs-launcher": "^0.1.4",
     "protractor": "^1.4.0"
   }
 }
