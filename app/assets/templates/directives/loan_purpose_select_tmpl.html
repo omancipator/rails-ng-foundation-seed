@@ -1,0 +1,12 @@
+<div class="large-3 columns d-loan-purpose-select">
+  <label>Loan Purpose
+    <select name="lcatid" ng-model="purpose" ng-change="selectionMade()" ng-options="purpose.title for purpose in purposes">
+      <option selected="selected" value="">- Select -</option>
+    </select>
+  </label>
+
+  <alert class="alert-box info radius" close="closeAlert()" ng-show="showAlert">
+    <span class="label">Note</span>
+    A Prosper loan for small businesses is a personal loan for business expenses. Individual borrowers will be personally liable for the debt and loans are not related to or guaranteed by the Small Business Administration.
+  </alert>
+</div>

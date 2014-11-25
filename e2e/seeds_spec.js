@@ -1,6 +1,6 @@
 describe("seeds welcome page", function(){
   beforeEach(function(){
-    browser.get("http://localhost:3000");
+    browser.get("http://localhost:3000/seeds/");
   });
   it("should say welcome somewhere", function(){
     var h1 = $('h1');

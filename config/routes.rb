@@ -5,8 +5,12 @@ Rails.application.routes.draw do
   # You can have the root of your site routed with "root"
   root 'home#index'
 
-  get 'seeds' => 'seeds#index'
-  get 'pageTwo' => 'seeds#pageTwo'
+  # see: http://start.jcolemorrison.com/setting-up-an-angularjs-and-rails-4-1-project/
+  #get '*path' => 'home#index'
+
+  get '/seeds' => 'seeds#index'
+  get '/pageTwo' => 'seeds#pageTwo'
+
 
 
 

@@ -27,7 +27,17 @@ module ProsperRails
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
     # config.i18n.default_locale = :de
 
+
+
+    # rails-angular-templates
+     config.angular_templates.ignore_prefix  = ['angular-foundation/']
+
+    # need this path to resolve angular-foundation 'template' directory
+    config.assets.paths << Rails.root.join("vendor","assets","bower_components", "angular-foundation")
+
     config.assets.paths << Rails.root.join("vendor","assets","bower_components")
+
+
 
 
   end

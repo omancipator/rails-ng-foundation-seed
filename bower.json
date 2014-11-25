@@ -1,10 +1,11 @@
 {
   "name": "pspRailsNgFoundationSeed",
   "dependencies": {
-    "angular":            "https://github.com/angular/bower-angular.git",
-    "angular-route":      "https://github.com/angular/bower-angular-route.git",
-    "angular-mocks":      "https://github.com/angular/bower-angular-mocks.git",
-    "foundation":         "https://github.com/zurb/bower-foundation.git",
-    "angular-foundation": "https://github.com/pineconellc/angular-foundation.git"
+    "angular": "https://github.com/angular/bower-angular.git",
+    "angular-route": "https://github.com/angular/bower-angular-route.git",
+    "angular-mocks": "https://github.com/angular/bower-angular-mocks.git",
+    "foundation": "https://github.com/zurb/bower-foundation.git",
+    "angular-foundation": "https://github.com/pineconellc/angular-foundation.git",
+    "jasmine": "~2.1.2"
   }
 }
