@@ -13,6 +13,6 @@ gem 'rails_12factor', group: :production
 
 gem 'angular-rails-templates'
 
-
+gem 'ngannotate-rails'
 
 
