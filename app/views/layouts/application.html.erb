@@ -2,12 +2,12 @@
 <html ng-app="pspApp">
 <head>
   <title>ProsperRails</title>
-  <%= stylesheet_link_tag    'application', media: 'all' %>
+  <%= stylesheet_link_tag 'application', media: 'all' %>
   <%= csrf_meta_tags %>
 </head>
 <body>
 <h2>jsPageModule:
-<%= @jsPageModule %>
+  <%= @jsPageModule %>
 </h2>
 <%= yield %>
 
@@ -15,13 +15,13 @@
 <%= javascript_include_tag 'manifests/lib_man' %>
 <%= javascript_include_tag "manifests/#{@jsPageModule}_man" %>
 <script>
-(function(angular){
-  angular.module('pspApp',['<%= @jsPageModule %>'])
-      .run(function($rootScope, $templateCache){
+  (function (angular) {
+    angular.module('pspApp', ['<%= @jsPageModule %>'])
+        .run(function ($rootScope, $templateCache) {
           $rootScope.$apply($(document).foundation());
-      }
-  );
-})(angular);
+        }
+    );
+  })(angular);
 </script>
 
 </body>

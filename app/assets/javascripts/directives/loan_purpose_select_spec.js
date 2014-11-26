@@ -1,10 +1,10 @@
-describe("loanPurposeSelectModule", function(){
+describe("loanPurposeSelectModule", function () {
 
   var $rootScope, $compile, $controller, scope
-  beforeEach( module("loanPurposeSelectModule", "templates") );
+  beforeEach(module("loanPurposeSelectModule", "templates"));
 
 
-  beforeEach(inject(function(_$rootScope_, _$compile_, _$controller_){
+  beforeEach(inject(function (_$rootScope_, _$compile_, _$controller_) {
     $rootScope = _$rootScope_;
     $compile = _$compile_;
     $controller = _$controller_;
@@ -13,9 +13,7 @@ describe("loanPurposeSelectModule", function(){
   }));
 
 
-
-
-  describe("loanPurposeSelect", function(){
+  describe("loanPurposeSelect", function () {
 
     // helper function
     function createDirective() {
@@ -24,12 +22,12 @@ describe("loanPurposeSelectModule", function(){
       return element.find('.d-loan-purpose-select');
     }
 
-    it("should show the d-loan-purpose-select class element", function(){
+    it("should show the d-loan-purpose-select class element", function () {
       var dir = createDirective();
       expect(dir).toBeDefined();
     });
 
-    it("should show a dropdown of loan purposes", function(){
+    it("should show a dropdown of loan purposes", function () {
       var dir = createDirective();
       var select = dir.find("select");
       expect(select).toBeDefined();
@@ -37,9 +35,6 @@ describe("loanPurposeSelectModule", function(){
     });
 
   });
-
-
-
 
 
 });
