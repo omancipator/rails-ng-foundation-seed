@@ -1,9 +1,7 @@
 (function(){
-    angular.module('pspApp',['templates', 'loanPurposeSelectModule'])
+    angular.module('pspApp',[])
         .run(function($rootScope, $templateCache){
             $rootScope.$apply($(document).foundation());
-
-            atmpl = $templateCache.get('template/alert/alert.html');
         }
     );
 })();
