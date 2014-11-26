@@ -9,17 +9,6 @@
 
 <%= yield %>
 
-<%= javascript_include_tag 'manifests/lib_man' %>
-<%= javascript_include_tag "manifests/#{@jsPageModule}_man" %>
-<script>
-  (function (angular) {
-    angular.module('pspApp', ['<%= @jsPageModule %>'])
-        .run(function ($rootScope) {
-          $rootScope.$apply($(document).foundation());
-        }
-    );
-  })(angular);
-</script>
-<!--jsPageModule: <%= @jsPageModule %>-->
+<%= javascript_include_tag 'app_man' %>
 </body>
 </html>

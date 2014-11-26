@@ -9,7 +9,7 @@ Let me know if you have any problems getting this up and running.
 * git clone git@github.com:omancipator/rails-ng-foundation-seed.git
 * cd rails-ng-foundation-seed
 * bundle install
-* rake bower:install
+* bower install
 * rails s
 * see your local version here: localhost:3000
 
@@ -21,4 +21,4 @@ Let me know if you have any problems getting this up and running.
 
 == helpful links
 * https://devcenter.heroku.com/articles/git
-* https://github.com/42dev/bower-rails
+* hhttp://bower.io/

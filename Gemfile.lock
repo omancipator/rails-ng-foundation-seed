@@ -32,7 +32,6 @@ GEM
       sprockets
       tilt
     arel (5.0.1.20140414130214)
-    bower-rails (0.9.2)
     builder (3.2.2)
     erubis (2.7.0)
     execjs (2.2.2)
@@ -103,7 +102,6 @@ PLATFORMS
 
 DEPENDENCIES
   angular-rails-templates
-  bower-rails
   foundation-rails
   ngannotate-rails
   rails (= 4.1.6)

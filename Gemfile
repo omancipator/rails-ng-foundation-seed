@@ -7,7 +7,6 @@ gem 'uglifier', '>= 1.3.0'
 
 
 
-gem "bower-rails"
 gem 'rails_12factor', group: :production
 gem 'angular-rails-templates'
 gem 'ngannotate-rails'
