@@ -3,13 +3,26 @@
 <head>
   <title>ProsperRails</title>
   <%= stylesheet_link_tag    'application', media: 'all' %>
-  <%= javascript_include_tag 'manifests/lib_man' %>
-  <%= javascript_include_tag 'manifests/psp_man' %>
   <%= csrf_meta_tags %>
 </head>
 <body>
-
+<h1>jsPageModule:
+<%= @jsPageModule %>
+</h1>
 <%= yield %>
+
+
+<%= javascript_include_tag 'manifests/lib_man' %>
+<%= javascript_include_tag "manifests/#{@jsPageModule}_man" %>
+<script>
+(function(angular){
+  angular.module('pspApp',['<%= @jsPageModule %>'])
+      .run(function($rootScope, $templateCache){
+          $rootScope.$apply($(document).foundation());
+      }
+  );
+})(angular);
+</script>
 
 </body>
 </html>

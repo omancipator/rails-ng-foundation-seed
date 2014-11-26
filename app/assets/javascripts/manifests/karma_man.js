@@ -11,6 +11,11 @@
 // config.assets.paths << Rails.root.join("vendor","assets","bower_components", "angular-foundation"):
 //= require template/alert/alert
 
-
+// nested files
+//*************
 //= require directives/loan_purpose_select
-//= require controllers/page_two_controller
+
+
+// module
+//*******
+//= require modules/karma
