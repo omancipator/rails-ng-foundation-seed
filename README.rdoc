@@ -1,19 +1,23 @@
-<img src="https://codeship.com/projects/49567" alt="Codeship Status for omancipator/rails-ng-foundation-seed"/>
+[ ![Codeship Status for omancipator/rails-ng-foundation-seed](https://codeship.com/projects/e5688270-5686-0132-18ec-22e6be3a6f3f/status)](https://codeship.com/projects/49567)
+
 == Getting started with Rails, AngularJS, Foundation, and Heroku
 
 Here is a seed repo with a rails project with the right gems to get a no-database rails site up and running on heroku with foundation and angularjs.
 Let me know if you have any problems getting this up and running.
 
-== Installation:
-
+== installation:
 * git clone git@github.com:omancipator/rails-ng-foundation-seed.git
 * cd rails-ng-foundation-seed
 * bundle install
-* bower install
+* rake bower:install
 * rails s
 * see your local version here: localhost:3000
 
-== pushing to heroku:
+== pushing to github
+* triggers codeship.io build, which runs karma and protractor tests
+* pushes to heroku upon success
+
+== pushing to heroku directly:
 * heroku create
 * git push heroku master 
 * heroku open 
@@ -21,4 +25,4 @@ Let me know if you have any problems getting this up and running.
 
 == helpful links
 * https://devcenter.heroku.com/articles/git
-* hhttp://bower.io/
+* https://github.com/42dev/bower-rails
