@@ -5,12 +5,12 @@
     .config(function($stateProvider, $urlRouterProvider) {
       $stateProvider
         .state('landing', {
-          url: 'landing',
+          url: '/landing',
           templateUrl: 'landing/index_tmpl.html',
           controller: "LandingFormController as landingCtrl"
         })
 
-      $urlRouterProvider.otherwise('/landing');
+      $urlRouterProvider.otherwise('landing');
     })
 
 

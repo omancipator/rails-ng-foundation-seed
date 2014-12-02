@@ -1,27 +1,20 @@
-describe("seeds welcome page", function(){
+describe("landing page form", function(){
   beforeEach(function(){
-    browser.get("http://localhost:3000/seeds/");
+    browser.get("http://localhost:3000/");
   });
   it("should say welcome somewhere", function(){
     var h1 = $('h1');
     expect(h1.getText()).toMatch(/welcome/);
   });
-  it("should have a link to the second page", function(){
-    var link = $('[href="/pageTwo"]');
-    expect(link).toBeDefined();
-    link.click();
-    var newPage = $('h1');
-    expect(newPage.getText()).toMatch("page two");
+  it("should have an input for loan amount", function(){
+    var input = $('input#amount');
+    expect(input).toBeDefined();
   });
+
+  it("should have a select for loan purpose", function(){
+    var loanPurposeSelect = $('.d-loan-purpose-select');
+    expect(loanPurposeSelect).toBeDefined();
+  });
+
 });
 
-describe("seeds pageTwo", function(){
-  it("should have a back link", function(){
-    browser.get("http://localhost:3000/pageTwo")
-    var link = $('a');
-    expect(link).toBeDefined();
-    link.click();
-    var h1 = $('h1');
-    expect(h1.getText()).toMatch(/welcome/);
-  });
-});
