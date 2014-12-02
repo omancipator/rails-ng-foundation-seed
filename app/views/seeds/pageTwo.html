@@ -1,8 +1,21 @@
 <div>
   <h1>page two</h1>
   <a href="/">back home</a>
-
-
-  <loan-purpose-select></loan-purpose-select>
 </div>
 
+
+
+<form name="landingForm" novalidate ng-controller="LandingFormController as landingCtrl">
+
+  <div class="row">
+    <div class="large-6 large-centered columns">
+
+      <loan-amount-input></loan-amount-input>
+      <loan-purpose-select enable-alert="false"></loan-purpose-select>
+      <credit-select></credit-select>
+      <input type="submit" class="button" value="Continue" ng-click="submitForm()" />
+
+    </div>
+  </div>
+
+</form>

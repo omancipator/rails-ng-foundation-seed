@@ -13,7 +13,9 @@
 //= require angular-rails-templates
 
 // one of ours:
-//= require directives/loan_purpose_select_tmpl
+//= require landing/directives/loan_purpose_select_tmpl
+//= require landing/directives/credit_select_tmpl
+//= require landing/directives/loan_amount_input_tmpl
 
 // one from a framework:
 // note: this resolves because of the following setting in application.rb:
@@ -24,7 +26,9 @@
 
 // common directives
 //******************
-//= require directives/loan_purpose_select
+//= require landing/directives/loan_purpose_select
+//= require landing/directives/credit_select
+//= require landing/directives/loan_amount_input
 
 
 
@@ -32,7 +36,7 @@
 //********
 // note: this by rails convention serves the 'index.js' in each namespace:
 //= require home
-//= require karma
+//= require landing
 
 
 

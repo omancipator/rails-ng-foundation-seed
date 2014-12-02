@@ -1,0 +1,17 @@
+<label for="amount">Loan Amount
+  <small>required</small>
+      <span class="right">
+        <span class="radius quick-pic label">10k</span>
+        <span class="radius quick-pic label">15k</span>
+        <span class="radius quick-pic label">20k</span>
+        <span class="radius quick-pic label">25k</span>
+        <span class="radius quick-pic label">30k</span>
+        <span class="radius quick-pic label">35k</span>
+      </span>
+  <input name="amount" id="amount" placeholder="amount" ng-model="landingCtrl.data.amount" required type="number" max="35000" min="1900"></input>
+
+  <span class="help-block" ng-show="landingForm.amount.$error.required">Amount is required</span>
+  <span class="help-block" ng-show="landingForm.amount.$error.number">Numeric amount (in dollars) is required</span>
+  <span class="help-block" ng-show="landingForm.amount.$error.max">Numeric amount cannot be more than 35k</span>
+  <span class="help-block" ng-show="landingForm.amount.$error.min">Numeric amount cannot be less than 2k</span>
+</label>

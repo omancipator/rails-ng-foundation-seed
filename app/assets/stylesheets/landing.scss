@@ -1,0 +1,33 @@
+@import 'global';
+
+.quick-pic{
+    color: $oil;
+    background-color: $secondary-color;
+    &:hover{
+        background-color: $success-color;
+        color: $white;
+    }
+
+}
+
+
+
+input, button{
+    display: block;
+}
+input.ng-invalid.ng-dirty {
+    border: 2px solid red;
+}
+.help-block{
+    color: red;
+}
+
+
+form[name='landingForm']{
+    input{
+        margin-bottom: 0px;
+    }
+    label{
+        margin-top: 15px;
+    }
+}

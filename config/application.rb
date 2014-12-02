@@ -34,8 +34,10 @@ module ProsperRails
 
     # need this path to resolve angular-foundation 'template' directory
     config.assets.paths << Rails.root.join("vendor","assets","bower_components", "angular-foundation")
-
     config.assets.paths << Rails.root.join("vendor","assets","bower_components")
+
+    # location of scss source partials:
+    config.assets.paths << Rails.root.join("vendor","assets","bower_components","foundation","scss","foundation","components")
 
 
 

@@ -1,6 +1,7 @@
-<div class="large-3 columns d-loan-purpose-select">
-  <label>Loan Purpose
-    <select name="lcatid" ng-model="purpose" ng-change="selectionMade()" ng-options="purpose.title for purpose in purposes">
+<div class="d-loan-purpose-select">
+  <label for="lcatid">Purpose of Loan
+    <small>required</small>
+    <select name="lcatid" id="lcatid" ng-model="purpose" ng-change="selectionMade()" ng-options="purpose.title for purpose in purposes" required="true">
       <option selected="selected" value="">- Select -</option>
     </select>
   </label>

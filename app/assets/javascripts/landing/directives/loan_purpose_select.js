@@ -34,8 +34,10 @@ angular.module("loanPurposeSelectModule",['templates', 'mm.foundation.alert'])
     $scope.purposes = loanPurposesService.getPurposes();
     $scope.showAlerts = false;
     $scope.selectionMade = function(){
-      $scope.showAlert = ($scope.purpose.id == 3) ? true: false;
-      console.log($scope.purpose.id);
+      $scope.showAlert = ($scope.enableAlert && $scope.purpose.id == 3);
+
+      // handing it up to parent
+      $scope.loanInfo.purposeId = $scope.purpose.id;
     };
     $scope.closeAlert = function(){
       $scope.showAlert = false;
@@ -45,7 +47,10 @@ angular.module("loanPurposeSelectModule",['templates', 'mm.foundation.alert'])
   .directive("loanPurposeSelect", function(){
     return{
       restrict: "E",
-      templateUrl: "directives/loan_purpose_select_tmpl.html",
-      controller: "LoanPurposeSelectController"
+      templateUrl: "landing/directives/loan_purpose_select_tmpl.html",
+      controller: "LoanPurposeSelectController",
+      scope: {
+        enableAlert: "="
+      }
     }
   });

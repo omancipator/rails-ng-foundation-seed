@@ -31,7 +31,6 @@ describe("loanPurposeSelectModule", function () {
       var dir = createDirective();
       var select = dir.find("select");
       expect(select).toBeDefined();
-      //expect(true).toBeFalsy();
     });
 
   });
