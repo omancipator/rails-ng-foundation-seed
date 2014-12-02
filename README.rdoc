@@ -8,6 +8,7 @@ Let me know if you have any problems getting this up and running.
 == installation:
 * git clone git@github.com:omancipator/rails-ng-foundation-seed.git
 * cd rails-ng-foundation-seed
+* npm install -g karma
 * bundle install
 * rake bower:install
 * rails s
