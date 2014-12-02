@@ -2,17 +2,6 @@ Rails.application.routes.draw do
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
-  # You can have the root of your site routed with "root"
-  root 'home#index'
-
-  # see: http://start.jcolemorrison.com/setting-up-an-angularjs-and-rails-4-1-project/
-  #get '*path' => 'home#index'
-
-  get '/seeds' => 'seeds#index'
-  get '/pageTwo' => 'seeds#pageTwo'
-
-
-
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
@@ -62,4 +51,15 @@ Rails.application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
+
+
+
+
+
+  # angular app:
+  # You can have the root of your site routed with "root"
+    root 'home#index'
+    # see: http://start.jcolemorrison.com/setting-up-an-angularjs-and-rails-4-1-project/
+    get '*path' => 'home#index'
+
 end

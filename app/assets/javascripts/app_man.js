@@ -2,6 +2,7 @@
 //**************
 //= require jquery
 //= require angular/angular
+//= require angular-ui-router/release/angular-ui-router
 //= require modernizr/modernizr
 //= require foundation/js/foundation
 //= require angular-foundation/src/alert/alert
@@ -13,6 +14,7 @@
 //= require angular-rails-templates
 
 // one of ours:
+//= require landing/index_tmpl
 //= require landing/directives/loan_purpose_select_tmpl
 //= require landing/directives/credit_select_tmpl
 //= require landing/directives/loan_amount_input_tmpl
